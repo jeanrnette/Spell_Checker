@@ -4,8 +4,9 @@ Simple command-line spell checker that suggests corrections for misspelled words
 ## How It Works
 - Loads a dictionary of **5-letter words** from a text file.
 - Reads input from user.
+- Asks user how many word suggestions (n) they would like.
 - Compares each word to the dictionary using **Levenshtein distance** to find the closest match.
-- Suggests the three closest matches
+- Suggests the n closest matches
 
 ## What I Learned
 - File input and output in C++
